@@ -1,16 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Home from "../components/Home/Home"
 
-
-const index = () => {
+const RouteList = () => {
   return (
     <>
         <BrowserRouter>
             <Routes>
-                <Route path=""/>
+                <Route path="/" element={<Home/>}/>
             </Routes>
         </BrowserRouter> 
     </>
   )
 }
 
-export default index
+export default RouteList
