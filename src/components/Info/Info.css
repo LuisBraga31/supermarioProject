@@ -1,0 +1,22 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main_infos {
+    padding: 40px;
+    margin-bottom: 150px;
+    border: 1px solid red;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.main_infos p {
+    text-align: justify;
+    font-weight: 600;
+}
