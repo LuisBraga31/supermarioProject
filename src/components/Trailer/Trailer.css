@@ -1,0 +1,24 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    color: white;
+
+}
+
+
+.main_trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.main_trailer iframe{
+    width: 60vw;
+    height: 70vh; 
+}

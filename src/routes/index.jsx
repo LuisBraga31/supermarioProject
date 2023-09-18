@@ -10,12 +10,10 @@ const RouteList = () => {
         
         <Header/>
 
-        <main>
-          <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/trailer" element={<Trailer/>} />
-            </Routes>
-        </main>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/trailer" element={<Trailer/>} />
+        </Routes>
 
         </BrowserRouter> 
     </>
