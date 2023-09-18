@@ -1,7 +1,6 @@
 import './App.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Header from './components/Header/Header';
 import RouteList from './routes';
 
 function App() {
@@ -17,10 +16,7 @@ function App() {
       </div>
 
       <div className='app'>
-        <Header/>
-        <main>
-          <RouteList/>
-        </main>
+        <RouteList/>
       </div>
      
 

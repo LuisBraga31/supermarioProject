@@ -24,13 +24,14 @@ header img {
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: white;
     cursor: pointer;
     font-weight: 600;
 }
 
 .nav_link:hover {
     color: red;
-
 }
 
 .nav_social {
