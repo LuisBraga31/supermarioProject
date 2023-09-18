@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    color: white;
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    flex: 1;
+}
+
+.nav_link {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav_link:hover {
+    color: red;
+}
+
+.nav_social {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.nav_social svg {
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+}
+
+.nav_social svg:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}

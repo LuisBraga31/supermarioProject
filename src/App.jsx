@@ -1,6 +1,7 @@
 import './App.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Header from './components/Header/Header';
 
 function App() {
   AOS.init();
@@ -8,12 +9,16 @@ function App() {
   return (
     <>
 
-    <div className='background'>
-      <video loop autoPlay muted>
-        <source src='../public/assets/background-video.mp4' type='video/mp4'/>
-      </video>
-    </div>
-
+      <div className='background'>
+        <video loop autoPlay muted>
+          <source src='../public/assets/background-video.mp4' type='video/mp4'/>
+        </video>
+      </div>
+      
+      <div className='app'>
+        <Header/>
+      </div>
+     
 
     </>
 
