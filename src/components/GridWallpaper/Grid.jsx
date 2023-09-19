@@ -1,5 +1,12 @@
 import './Grid.css';
 
+import Item01 from '../../assets/wp_01.jpg';
+import Item02 from '../../assets/wp_02.jpg';
+import Item03 from '../../assets/wp_03.png';
+import Item04 from '../../assets/wp_04.jpeg';
+import Item05 from '../../assets/wp_05.jpg';
+import Item06 from '../../assets/wp_06.jpg';
+
 const Grid = () => {
   return (
     <main>
@@ -7,22 +14,22 @@ const Grid = () => {
         <div className="main_wallpaper" data-aos= "fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
 
             <div className="grid_item"> 
-                <img src="../../../assets/wp_01.jpg" alt=""/>
+                <img src={Item01} alt=""/>
             </div>
             <div className="grid_item">
-                <img src="../../../assets/wp_02.jpg" alt=""/>
+                <img src={Item02} alt=""/>
             </div>
             <div className="grid_item">
-                <img src="../../../assets/wp_03.png" alt=""/>
+                <img src={Item03} alt=""/>
             </div>
             <div className="grid_item">
-                <img src="../../../assets/wp_04.jpeg" alt=""/>
+                <img src={Item04} alt=""/>
             </div>
             <div className="grid_item">
-                <img src="../../../assets/wp_05.jpg" alt=""/>
+                <img src={Item05} alt=""/>
             </div>
             <div className="grid_item">
-                <img src="../../../assets/wp_06.jpg" alt=""/>
+                <img src={Item06} alt=""/>
             </div>
 
         </div>

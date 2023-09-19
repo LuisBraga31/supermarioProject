@@ -1,12 +1,13 @@
-
 import { Link } from 'react-router-dom';
 import './Header.css';
+
+import LogoCap from '../../assets/logo-cap.png';
 
 const Header = () => {
   return (
     <header>
       
-      <img src="../../../assets/logo-cap.png" alt="" />
+      <img src={LogoCap} alt="" />
       
       <nav className="navigation">
         <Link to='/' className="nav_link"> Home </Link>
