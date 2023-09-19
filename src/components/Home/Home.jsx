@@ -8,7 +8,7 @@ const Home = () => {
             <img data-aos= "fade-up"
                 data-aos-duration="800"
                 data-aos-easing="ease-in-out"
-                src="../../../public/assets/logo-movie.png" width="250px"/>
+                src="../../../assets/logo-movie.png" width="250px"/>
 
             <p data-aos= "fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out" >
                 Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach, 
@@ -29,7 +29,7 @@ const Home = () => {
             data-aos-delay="500"
             data-aos-duration="800"
             data-aos-easing="ease-in-out"
-            src="../../../public/assets/mario-and-luigi.png" width="640px" alt="" 
+            src="../../../assets/mario-and-luigi.png" width="640px" alt="" 
         />
 
     </main>

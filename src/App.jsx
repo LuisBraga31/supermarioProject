@@ -11,7 +11,7 @@ function App() {
 
       <div className='background'>
         <video loop autoPlay muted>
-          <source src='../public/assets/background-video.mp4' type='video/mp4'/>
+          <source src='../assets/background-video.mp4' type='video/mp4'/>
         </video>
       </div>
 
