@@ -28,6 +28,7 @@ const Home = () => {
         </div>
         
         <img 
+            className="luigi-mario"
             data-aos= "fade-up"
             data-aos-delay="500"
             data-aos-duration="800"
